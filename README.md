@@ -21,7 +21,7 @@ ________________________________________
 1. Perfilamento e pré-processamento dos dados: análise exploratória, valores omissos e atípicos, distribuições e correlações; tratamento dos valores omissos e dos valores atípicos, remoção de variáveis redundantes e de variáveis com baixa variância e discretização da variável-alvo.
 2. Clustering: aplicação e avaliação dos modelos de K-Means e Aglomerativo Hierárquico através de métricas internas (índices de silhueta, inércia e de Davies-Bouldin) e métricas externas (índices de pureza e de rand).
 3. Análise de valores atípicos: deteção utilizando o modelo Local Outlier Factor, análise bivariada de variáveis relevantes e estudo das pontuações de anomalia.
-4. Avaliação detalhada: interpretação dos clusters, hipóteses para desvios, impacto do pré-processamento e hipóteses para as anomalias.
+4. Avaliação detalhada: interpretação dos clusters e hipóteses para as anomalias.
 ________________________________________
 
 ## Ferramentas Utilizadas
