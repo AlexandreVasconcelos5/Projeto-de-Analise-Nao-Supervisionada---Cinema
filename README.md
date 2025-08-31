@@ -21,7 +21,7 @@ ________________________________________
   4. Sessões com Preços Moderadamente Elevados e Procura Normal
   5. Sessões a Preço Normal e Ocupação Moderada
 - Modelo Local Outlier Factor (LOF): melhor configuração com 25 vizinhos e distância do cosseno, pontuação média dos valores atípicos = 1.243. O modelo detetou cerca de 9.35% de valores atípicos verdadeiros, explicados por fenómenos como promoções, erros de registo, salas VIP e sazonalidade.
-- Conclusões: os modelos K-Means e Aglomerativo Hierárquico revelaram clusters bem definidos (índice de silhueta superior a 0.7), permitindo identificar perfis distintos de sessões de cinema, enquanto o modelo LOF detetou cerca de 9% de valores atípicos explicados por fenómenos reais.
+- Conclusão: os modelos K-Means e Aglomerativo Hierárquico revelaram clusters bem definidos (índice de silhueta superior a 0.7), permitindo identificar perfis distintos de sessões de cinema, enquanto o modelo LOF detetou cerca de 9% de valores atípicos explicados por fenómenos reais.
 ________________________________________
 
 ## Estrutura do Projeto
