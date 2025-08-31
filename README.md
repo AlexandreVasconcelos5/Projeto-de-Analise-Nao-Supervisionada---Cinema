@@ -1,4 +1,4 @@
-## Projeto de Data Science e Análise Não-Supervisionada - Cinema 🎬
+## Projeto de Data Science e Análise Não-Supervisionada - Sessões de Cinema 🎬
 Este projeto aplica um ciclo end-to-end de Ciência de Dados com Análise Não-Supervisionada, explorando padrões ocultos e a deteção de valores atípicos em sessões de cinema. O conjunto de dados contém variáveis relacionadas com o preço dos bilhetes, a capacidade das salas, os horários e a ocupação, tendo como variável-alvo Receita_Total. O foco principal do projeto foi segmentar sessões de cinema em perfis distintos através de clustering e detetar anomalias relevantes, permitindo compreender fenómenos como preços fora do normal, ocupações invulgares ou sessões premium.
 ________________________________________
 
