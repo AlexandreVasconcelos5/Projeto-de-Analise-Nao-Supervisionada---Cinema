@@ -10,11 +10,20 @@ ________________________________________
 - Discretização da variável-alvo Receita_Total em 3 classes (Baixa, Média e Alta).
 - Modelação: Avaliação de 2 modelos de clustering, K-Means e Aglomerativo Hierárquico.
 - Análise de valores atípicos com o modelo Local Outlier Factor (LOF).
-- Análise crítica de clusters e anomalias, com hipóteses para explicação de fenómenos atípicos.
+- Análise crítica de clusters e de anomalias, com hipóteses para a explicação de fenómenos atípicos.
 ________________________________________
 
 ## Resultados Principais
-
+- Modelo K-Means: melhor configuração com 14 clusters, índice de silhueta = 0.773.
+- Modelo Aglomerativo Hierárquico: melhor configuração com 12 clusters, critério de ligação de Ward e distância Euclidiana, índice de silhueta = 0.762.
+- A variável Preço_Bilhete foi a mais determinante na separação dos clusters, seguida da variável Percentagem_Ocupacao_Sala.
+- Identificação de 5 perfis distintos de sessões de cinema:
+  1. Sessões Premium com Grande Procura
+  2. Sessões Económicas com Baixa Procura
+  3. Sessões Económicas e Procura Irregular
+  4. Sessões com Preços Moderadamente Elevados e Procura Normal
+  5. Sessões a Preço Normal e Ocupação Moderada
+- Modelo Local Outlier Factor (LOF): (25 vizinhos + distância do cosseno) detetou cerca de 9.35% de valores atípicos reais, explicados por fenómenos como promoções, erros de registo, salas VIP pequenas ou sazonalidade (ex.: menor procura em épocas específicas).
 ________________________________________
 
 ## Estrutura do Projeto
