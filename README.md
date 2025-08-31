@@ -3,14 +3,11 @@ Este projeto aplica técnicas de Análise Não-Supervisionada para explorar padr
 ________________________________________
 
 ## Destaques do Projeto
-- Projeto avaliado com 18 valores, refletindo rigor e profundidade na aplicação de técnicas de data science e análise não-supervisionada.
-- Conjunto de dados real com 142.524 registos e 14 variáveis.
-- Tratamento dos valores omissos através da remoção de um mínimo de registos em falta e dos valores atípicos por truncamento aos limites inferior e superior.
-- Remoção de variáveis redundantes (com correlação entre si superior a 0.90) e de variáveis com baixa variância (inferior a 0.10).
-- Discretização da variável-alvo Receita_Total em 3 classes (Baixa, Média e Alta).
-- Modelação: Avaliação de 2 modelos de clustering, K-Means e Aglomerativo Hierárquico.
-- Análise de valores atípicos com o modelo Local Outlier Factor (LOF).
-- Análise crítica de clusters e de anomalias, com hipóteses para a explicação de fenómenos atípicos.
+- Projeto avaliado com 18 valores, refletindo rigor e profundidade na aplicação de técnicas de ciência de dados e análise não-supervisionada.
+- Conjunto de dados real com 142.524 registos e 14 variáveis sobre sessões de cinema.
+- Aplicação de clustering utilizando os modelos K-Means e Aglomerativo Hierárquico, revelando clusters bem definidos (índices de silhueta > 0.7).
+- Identificação de 5 perfis distintos de sessões de cinema, como Sessões Premium com Grande Procura ou Sessões Económicas com Baixa Procura.
+- Deteção de aproximadamente 9% de valores atípicos verdadeiros utilizando o modelo Local Outlier Factor (LOF), explicados por fenómenos como promoções, salas VIP, sazonalidade e erros de registo.
 ________________________________________
 
 ## Resultados Principais
