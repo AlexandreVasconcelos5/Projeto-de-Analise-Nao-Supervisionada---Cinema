@@ -24,10 +24,22 @@ ________________________________________
 ________________________________________
 
 ## Estrutura do Projeto
-1. Perfilamento e pré-processamento dos dados: análise exploratória, valores omissos e atípicos, distribuições e correlações; tratamento dos valores omissos e dos valores atípicos, remoção de variáveis redundantes e de variáveis com baixa variância e discretização da variável-alvo.
-2. Clustering: aplicação e avaliação dos modelos de K-Means e Aglomerativo Hierárquico através de índices internos (silhueta, inércia e Davies-Bouldin) e índices externos (pureza e rand).
-3. Análise de valores atípicos: deteção utilizando o modelo Local Outlier Factor, análise bivariada de variáveis relevantes e estudo das pontuações de anomalia.
-4. Avaliação detalhada: interpretação dos clusters e hipóteses para as anomalias.
+1. Perfilamento e pré-processamento dos dados:
+   - Análise exploratória, valores omissos e atípicos, distribuições e correlações.
+   - Tratamento dos valores omissos (remoção mínima) e dos valores atípicos (truncamento aos limites mínimo e máximo).
+   - Remoção de variáveis redundantes (correlação superior a 0.90) e de variáveis com baixa variância (inferior a 0.10).
+   - Discretização da variável-alvo em 3 classes: Baixa, Média e Alta.
+     
+2. Clustering:
+   - Aplicação dos modelos K-Means e Aglomerativo Hierárquico.
+   - Avaliação através de índices internos (silhueta, inércia e Davies-Bouldin) e índices externos (pureza e rand).
+   - Interpretação dos clusters e caracterização de perfis de sessões de cinema.
+
+  
+  
+
+6. Análise de valores atípicos: deteção utilizando o modelo Local Outlier Factor, análise bivariada de variáveis relevantes e estudo das pontuações de anomalia.
+7. Avaliação detalhada: interpretação dos clusters e hipóteses para as anomalias.
 ________________________________________
 
 ## Ferramentas Utilizadas
