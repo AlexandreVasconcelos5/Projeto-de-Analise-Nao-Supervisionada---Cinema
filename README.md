@@ -39,3 +39,9 @@ ________________________________________
 1. Clonar o repositório
 2. Abrir no Jupyter Notebook o ficheiro `.ipynb`
 3. Executar as células por ordem para reproduzir a análise
+________________________________________
+
+## Contactos
+- Nome: Alexandre Vasconcelos
+- Email: alex-0.5@hotmail.com
+- LinkedIn: https://www.linkedin.com/in/alexandre-vasconcelos-396227167/
