@@ -6,11 +6,11 @@ ________________________________________
 - Projeto avaliado com 18 valores, refletindo rigor e profundidade na aplicação de técnicas de data science e análise não-supervisionada.
 - Conjunto de dados real com 142.524 registos e 14 variáveis.
 - Tratamento dos valores omissos através da remoção de um mínimo de registos em falta e dos valores atípicos por truncamento aos limites inferior e superior.
-- Remoção de variáveis redundantes (com correlação superior a 0.90) e de baixa variância.
+- Remoção de variáveis redundantes (com correlação entre si superior a 0.90) e de variáveis com baixa variância (inferior a 0.10).
 - Discretização da variável-alvo Receita_Total em 3 classes (Baixa, Média e Alta).
-- Avaliação de 2 modelos de clustering: K-Means e Aglomerativo Hierárquico.
-- Análise de valores atípicos multivariados com o modelo Local Outlier Factor (LOF).
-- Interpretação crítica de clusters e anomalias, com hipóteses para explicação de fenómenos atípicos.
+- Modelação: Avaliação de 2 modelos de clustering, K-Means e Aglomerativo Hierárquico.
+- Análise de valores atípicos com o modelo Local Outlier Factor (LOF).
+- Análise crítica de clusters e anomalias, com hipóteses para explicação de fenómenos atípicos.
 ________________________________________
 
 ## Resultados Principais
