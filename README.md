@@ -7,7 +7,7 @@ ________________________________________
 - Conjunto de dados real com 142.524 registos e 14 variáveis sobre sessões de cinema.
 - Aplicação de clustering utilizando os modelos K-Means e Aglomerativo Hierárquico, revelando clusters bem definidos (índices de silhueta > 0.7).
 - Identificação de 5 perfis distintos de sessões de cinema, como Sessões Premium com Grande Procura ou Sessões Económicas com Baixa Procura.
-- Deteção de aproximadamente 9% de valores atípicos verdadeiros utilizando o modelo Local Outlier Factor (LOF), explicados por fenómenos como promoções, salas VIP, sazonalidade e erros de registo.
+- Deteção de aproximadamente 9% de valores atípicos utilizando o modelo Local Outlier Factor (LOF), explicados por fenómenos como promoções, salas VIP, sazonalidade e erros de registo.
 ________________________________________
 
 ## Resultados Principais
