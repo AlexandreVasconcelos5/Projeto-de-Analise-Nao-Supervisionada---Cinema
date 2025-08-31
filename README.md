@@ -18,11 +18,10 @@ ________________________________________
 ________________________________________
 
 ## Estrutura do Projeto
-1. Perfilamento dos dados: análise exploratória, valores omissos e atípicos, distribuições e correlações.
-2. Pré-processamento dos dados: tratamento de valores omissos e de valores atípicos, remoção de variáveis redundantes e de variáveis com baixa variância e discretização da variável-alvo.
-3. Clustering: aplicação e avaliação dos modelos de K-Means e Aglomerativo Hierárquico através de métricas internas (Índices de Silhueta, Inércia e de Davies-Bouldin) e métricas externas (Índices de Pureza e de Rand).
-4. Análise dos valores atípicos: deteção multivariada com LOF, análise bivariada de variáveis relevantes e estudo das pontuações de anomalia.
-5. Avaliação Crítica: interpretação dos clusters, hipóteses para desvios, impacto do pré-processamento e análise de anomalias.
+1. Perfilamento e pré-processamento dos dados: análise exploratória, valores omissos e atípicos, distribuições e correlações; tratamento dos valores omissos e dos valores atípicos, remoção de variáveis redundantes e de variáveis com baixa variância e discretização da variável-alvo.
+2. Clustering: aplicação e avaliação dos modelos de K-Means e Aglomerativo Hierárquico através de métricas internas (índices de silhueta, inércia e de Davies-Bouldin) e métricas externas (índices de pureza e de rand).
+3. Análise de valores atípicos: deteção utilizando o modelo Local Outlier Factor, análise bivariada de variáveis relevantes e estudo das pontuações de anomalia.
+4. Avaliação detalhada: interpretação dos clusters, hipóteses para desvios, impacto do pré-processamento e hipóteses para as anomalias.
 ________________________________________
 
 ## Ferramentas Utilizadas
