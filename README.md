@@ -35,11 +35,14 @@ ________________________________________
    - Avaliação através de índices internos (silhueta, inércia e Davies-Bouldin) e índices externos (pureza e rand).
    - Interpretação dos clusters e caracterização de perfis de sessões de cinema.
 
-  
-  
+3. Análise de valores atípicos:
+   - Deteção utilizando o modelo Local Outlier Factor (LOF).
+   - Análise bivariada dos pares de variáveis mais relevantes.
+   - Estudo da distribuição das pontuações de anomalia e identificação de casos explicados por fenómenos reais.
 
-6. Análise de valores atípicos: deteção utilizando o modelo Local Outlier Factor, análise bivariada de variáveis relevantes e estudo das pontuações de anomalia.
-7. Avaliação detalhada: interpretação dos clusters e hipóteses para as anomalias.
+4. Avaliação detalhada:
+   - Interpretação dos clusters encontrados.
+   - Hipóteses explicativas para as anomalias.
 ________________________________________
 
 ## Ferramentas Utilizadas
