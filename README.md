@@ -37,6 +37,7 @@ ________________________________________
 - Jupyter Notebook
 - Python
 - Pandas
+- NumPy
 - Scikit-learn
 - Matplotlib
 - Seaborn
