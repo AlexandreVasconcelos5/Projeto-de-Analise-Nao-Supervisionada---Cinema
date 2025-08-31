@@ -23,7 +23,7 @@ ________________________________________
   3. Sessões Económicas e Procura Irregular
   4. Sessões com Preços Moderadamente Elevados e Procura Normal
   5. Sessões a Preço Normal e Ocupação Moderada
-- Modelo Local Outlier Factor (LOF): (25 vizinhos + distância do cosseno) detetou cerca de 9.35% de valores atípicos reais, explicados por fenómenos como promoções, erros de registo, salas VIP pequenas ou sazonalidade (ex.: menor procura em épocas específicas).
+- Modelo Local Outlier Factor (LOF): melhor configuração com 25 vizinhos e distância do cosseno, pontuação média dos valores atípicos = 1.243. O modelo detetou cerca de 9.35% de valores atípicos verdadeiros, explicados por fenómenos como promoções, erros de registo, salas VIP e sazonalidade.
 ________________________________________
 
 ## Estrutura do Projeto
