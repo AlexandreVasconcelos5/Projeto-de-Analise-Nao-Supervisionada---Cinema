@@ -1,4 +1,7 @@
 ## Projeto de Data Science e Análise Não-Supervisionada - Clustering e Deteção de Anomalias em Sessões de Cinema 🎬
+
+<img width="1598" height="765" alt="Print Screen" src="https://github.com/user-attachments/assets/06ba312f-db86-4fdd-a128-4795dcf5d482" />
+
 Este projeto aplica técnicas de Análise Não-Supervisionada para explorar padrões ocultos e detetar valores atípicos em sessões de cinema, num ciclo end-to-end de Ciência de Dados. O conjunto de dados contém variáveis relacionadas com o preço dos bilhetes, a capacidade e a ocupação das salas, e os horários das sessões, tendo como variável alvo Receita_Total. O foco principal do projeto foi segmentar diferentes tipos de sessões de cinema em perfis distintos através de clustering e detetar anomalias relevantes, permitindo compreender fenómenos como preços fora do normal, ocupações invulgares ou sessões premium.
 ________________________________________
 
