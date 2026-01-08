@@ -61,8 +61,8 @@ ________________________________________
 ________________________________________
 
 ## Conteúdos do Repositório
-- Jupyter Notebook - Projeto - Data Science e Análise Não-Supervisionada - Conjunto de Dados Cinema - Alexandre Vasconcelos.ipynb - Código do projeto
-- Relatório PDF - Projeto - Data Science e Análise Não-Supervisionada - Conjunto de Dados Cinema - Alexandre Vasconcelos.pdf - Relatório do projeto, detalhado com a descrição e os resultados da análise
+- Analise_Nao_Supervisionada_Cinema.ipynb - Código do projeto
+- Analise_Nao_Supervisionada_Cinema.pdf - Relatório do projeto, detalhado com a descrição e os resultados da análise
 ________________________________________
 
 ## Como Visualizar os Resultados
