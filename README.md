@@ -17,7 +17,7 @@ ________________________________________
 ## 📊 Core Results:
 - K-Means Optimization: Best configuration with 14 clusters (Silhouette = 0.773).
 - Hierarchical Clustering: Best configuration with 12 clusters, Ward linkage and Euclidean distance (Silhouette = 0.762).
-- Feature Importance: Ticket_Price and Occupancy_Percentage were the most relevant variables for cluster differentiation.
+- Feature Importance: Ticket_Price and Occupancy_Percentage were the most relevant features for cluster differentiation.
 - K-Means and Hierarchical Clustering models revealed well-defined clusters, enabling the identification of 5 distinct cinema session profiles:
     1.  High-Demand Premium Sessions
     2.  Low-Demand Economic Sessions
@@ -31,7 +31,7 @@ ________________________________________
 1.  Data Profiling & Pre-processing:
     - Exploratory data analysis, missing values, outliers, distributions, and feature correlations.
     - Treatment of missing values (minimal removal) and of outliers (truncation to min/max thresholds).
-    - Removal of redundant variables (correlation > 0.90) and of low-variance variables (< 0.10).
+    - Removal of redundant features (correlation > 0.90) and of low-variance features (< 0.10).
     - Discretization of the target variable into 3 classes: Low, Medium, and High.
 
 2.  Clustering Architecture:
@@ -41,7 +41,7 @@ ________________________________________
 
 3. Anomaly Detection:
     - Outlier detection via the Local Outlier Factor (LOF) model.
-    -  Bivariate analysis of the most relevant variable pairs.
+    -  Bivariate analysis of the most relevant feature pairs.
     - Anomaly score distribution study and identification of cases explained by real-world phenomena.
 
 4. Advanced Evaluation:
