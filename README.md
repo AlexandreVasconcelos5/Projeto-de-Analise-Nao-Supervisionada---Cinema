@@ -39,12 +39,19 @@ ________________________________________
     - Model evaluation via internal indices (silhouette, inertia, and Davies-Bouldin) and external indices (Purity and Rand).
     - Clusters interpretation and characterization of distinct cinema session profiles.
 
-     
+3. Anomaly Detection:
+    - Outlier detection via the Local Outlier Factor (LOF) model.
+    -  Bivariate analysis of the most relevant pair variables.
 
 
-2. Análise de valores atípicos:
-   - Deteção utilizando o modelo LOF.
-   - Análise bivariada dos pares de variáveis mais relevantes.
+    - Anomaly Score Distribution: Study of scoring patterns and identification of cases explained by real-world operational phenomena.
+
+
+
+
+
+  
+
    - Estudo da distribuição das pontuações de anomalia e identificação de casos explicados por fenómenos reais.
 
 
@@ -61,7 +68,7 @@ ________________________________________
 
 
 
-3. Avaliação detalhada:
+4. Detailed Evaluation:
    - Interpretação dos clusters encontrados.
    - Hipóteses explicativas para as anomalias.
   
@@ -69,21 +76,9 @@ ________________________________________
 
 
 
+Cluster Interpretation: In-depth analysis and profiling of the identified segments.
 
-
-
-
-
-
-
-
-      
-3.  **Anomaly Detection:**
-    * LOF deployment and bivariate analysis of key variable pairs.
-    * Distribution study of anomaly scores to validate real-world business events.
-
-
-
+Anomaly Root Cause Analysis: Explanatory frameworks for detected outliers based on operational data.
 
 ________________________________________
 
