@@ -41,10 +41,10 @@ ________________________________________
 
 3. Anomaly Detection:
     - Outlier detection via the Local Outlier Factor (LOF) model.
-    -  Bivariate analysis of the most relevant pair variables.
+    -  Bivariate analysis of the most relevant variable pairs.
     - Anomaly score distribution study and identification of cases explained by real-world phenomena.
 
-4. Detailed Evaluation:
+4. Advanced Evaluation:
    - Clusters interpretation.
    - Explanatory hypothesis for detected outliers based on operational data.
 ________________________________________
