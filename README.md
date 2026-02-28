@@ -6,13 +6,6 @@
 This project implements an end-to-end Data Science pipeline using Unsupervised Learning to uncover hidden patterns and detect operational anomalies in cinema session data. Utilizing a high-dimensional dataset (ticket pricing, hall capacity, occupancy, and scheduling hours), the core objective was to segment session profiles and isolate outliers representing promotional spikes, VIP sessions, or data entry errors.
 ________________________________________
 
-## Destaques do Projeto
-- Projeto avaliado com 18 valores, refletindo rigor e profundidade na aplicação de técnicas de Ciência de Dados e Análise Não-Supervisionada.
-- Conjunto de dados real com 142.524 registos e 14 variáveis.
-- Aplicação de clustering utilizando os modelos K-Means e Aglomerativo Hierárquico, revelando clusters bem definidos (índices de silhueta > 0.7).
-- Identificação de 5 perfis distintos de sessões de cinema, como Sessões Premium com Grande Procura ou Sessões Económicas com Baixa Procura.
-- Deteção de aproximadamente 9% de valores atípicos utilizando o modelo Local Outlier Factor (LOF), explicados por fenómenos como promoções, salas VIP, sazonalidade e erros de registo.
-
 ## 💡Project Highlights:
 - Final Grade: 19.3/20 – Post-Graduate Program in Data Science for Engineers (DaSh) @ IST, Técnico+.
 - Executed rigorous data profiling and feature engineering on a high-dimensional dataset to ensure model stability.
