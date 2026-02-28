@@ -42,44 +42,11 @@ ________________________________________
 3. Anomaly Detection:
     - Outlier detection via the Local Outlier Factor (LOF) model.
     -  Bivariate analysis of the most relevant pair variables.
-
-
-    - Anomaly Score Distribution: Study of scoring patterns and identification of cases explained by real-world operational phenomena.
-
-
-
-
-
-  
-
-   - Estudo da distribuição das pontuações de anomalia e identificação de casos explicados por fenómenos reais.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    - Anomaly score distribution study and identification of cases explained by real-world phenomena.
 
 4. Detailed Evaluation:
-   - Interpretação dos clusters encontrados.
-   - Hipóteses explicativas para as anomalias.
-  
-
-
-
-
-Cluster Interpretation: In-depth analysis and profiling of the identified segments.
-
-Anomaly Root Cause Analysis: Explanatory frameworks for detected outliers based on operational data.
-
+   - Clusters interpretation.
+   - Explanatory hypothesis for detected outliers based on operational data.
 ________________________________________
 
 ## 🛠️ Tech Stack:
