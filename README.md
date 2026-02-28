@@ -73,7 +73,9 @@ ________________________________________
 4. Executar as células por ordem para reproduzir a análise.
 ________________________________________
 
-## Contactos
-- Nome: Alexandre Vasconcelos
-- Email: alex.vasconcelos.2057@gmail.com
 - LinkedIn: https://www.linkedin.com/in/alexandre-vasconcelos-396227167/
+
+## 📩 Contacts:
+- Alexandre Vasconcelos
+- Email: alex.vasconcelos.2057@gmail.com
+- LinkedIn: [linkedin.com/in/alexandre-vasconcelos-396227167/](https://www.linkedin.com/in/alexandre-vasconcelos-396227167/)
