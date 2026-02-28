@@ -50,30 +50,23 @@ ________________________________________
    - Hipóteses explicativas para as anomalias.
 ________________________________________
 
-## Ferramentas Utilizadas
-- Jupyter Notebook
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- SciPy
-- Matplotlib
-- Seaborn
+## 🛠️ Tech Stack:
+- Language: Python
+- Environment: Jupyter Notebook, Visual Studio Code
+- Libraries: Pandas, NumPy, Scikit-learn, SciPy, Matplotlib, Seaborn
 ________________________________________
 
-## Conteúdos do Repositório
-- Analise_Nao_Supervisionada_Cinema.ipynb - Código do projeto
-- Analise_Nao_Supervisionada_Cinema.pdf - Relatório do projeto, detalhado com a descrição e os resultados da análise
+## 📂 Repository Structure:
+- `Analise_Nao_Supervisionada_Cinema.ipynb`: Full source code and implementation.
+- `Analise_Nao_Supervisionada_Cinema.pdf`: Detailed technical PDF report.
 ________________________________________
 
-## Como Visualizar os Resultados
-1. Clonar o repositório.
-2. Instalar as seguintes dependências: pip install -r requirements.txt .
-3. Abrir o ficheiro .ipynb no Jupyter Notebook.
-4. Executar as células por ordem para reproduzir a análise.
+## Quick Start:
+1. Clone the repository.
+2. Install dependencies: `pip install -r requirements.txt`.
+3. Open the `.ipynb` file in Jupyter Notebook.
+4. Execute cells sequentially to reproduce the analysis and visualizations.
 ________________________________________
-
-- LinkedIn: https://www.linkedin.com/in/alexandre-vasconcelos-396227167/
 
 ## 📩 Contacts:
 - Alexandre Vasconcelos
