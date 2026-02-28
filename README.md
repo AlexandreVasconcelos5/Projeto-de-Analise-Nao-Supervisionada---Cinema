@@ -1,8 +1,9 @@
-## Projeto de Data Science e Análise Não-Supervisionada - Clustering e Deteção de Anomalias em Sessões de Cinema 🎬
+## Unsupervised ML Pipeline: Clustering & Anomaly Detection in Cinema Operations 🎬
 
 <img width="1598" height="765" alt="Print Screen" src="https://github.com/user-attachments/assets/06ba312f-db86-4fdd-a128-4795dcf5d482" />
 
-Este projeto aplica técnicas de Análise Não-Supervisionada para explorar padrões ocultos e detetar valores atípicos em sessões de cinema, num ciclo end-to-end de Ciência de Dados. O conjunto de dados contém variáveis relacionadas com o preço dos bilhetes, a capacidade e a ocupação das salas, e os horários das sessões, tendo como variável alvo Receita_Total. O foco principal do projeto foi segmentar diferentes tipos de sessões de cinema em perfis distintos através de clustering e detetar anomalias relevantes, permitindo compreender fenómenos como preços fora do normal, ocupações invulgares ou sessões premium.
+## Project Overview:
+This project implements an end-to-end Data Science pipeline using Unsupervised Learning to uncover hidden patterns and detect operational anomalies in cinema session data. Utilizing a high-dimensional dataset (ticket pricing, hall capacity, occupancy, and scheduling hours), the core objective was to segment session profiles and isolate outliers representing promotional spikes, VIP sessions, or data entry errors.
 ________________________________________
 
 ## Destaques do Projeto
@@ -11,6 +12,13 @@ ________________________________________
 - Aplicação de clustering utilizando os modelos K-Means e Aglomerativo Hierárquico, revelando clusters bem definidos (índices de silhueta > 0.7).
 - Identificação de 5 perfis distintos de sessões de cinema, como Sessões Premium com Grande Procura ou Sessões Económicas com Baixa Procura.
 - Deteção de aproximadamente 9% de valores atípicos utilizando o modelo Local Outlier Factor (LOF), explicados por fenómenos como promoções, salas VIP, sazonalidade e erros de registo.
+
+## 💡Project Highlights:
+- Final Grade: 19.3/20 – Post-Graduate Program in Data Science for Engineers (DaSh) @ IST, Técnico+.
+- Executed rigorous data profiling and feature engineering on a high-dimensional dataset to ensure model stability.
+- Implemented and optimized K-Means and Agglomerative Hierarchical models, achieving Silhouette Scores > 0.7.
+- Defined 5 distinct audience profiles, such as High-Demand Premium Sessions and Low-Demand Economic Sessions, for dynamic pricing and resource allocation optimization.
+- Deployed a Local Outlier Factor (LOF) model to isolate 9% of records as operational anomalies, identifying critical business insights from promotional spikes and VIP session patterns.
 ________________________________________
 
 ## Resultados Principais
