@@ -15,9 +15,6 @@ ________________________________________
 ________________________________________
 
 ## Resultados Principais
-- Modelo K-Means: melhor configuração com 14 clusters, índice de silhueta = 0.773.
-- Modelo Aglomerativo Hierárquico: melhor configuração com 12 clusters, critério de ligação de Ward e distância Euclidiana, índice de silhueta = 0.762.
-- A variável Preço_Bilhete foi a mais relevante na separação dos clusters, seguida da variável Percentagem_Ocupacao_Sala.
 - Os modelos K-Means e Aglomerativo Hierárquico revelaram clusters bem definidos, permitindo a identificação de 5 perfis distintos de sessões de cinema:
   1. Sessões Premium com Grande Procura
   2. Sessões Económicas com Baixa Procura
@@ -36,11 +33,7 @@ ________________________________________
 
 
 
-
-
-
-
-- Defined Session Profiles:
+- K-Means and Hierarchical Clustering models revealed well-defined clusters, enabling the identification of 5 distinct cinema session profiles:
     1.  High-Demand Premium Sessions
     2.  Low-Demand Economic Sessions
     3.  Irregular Demand Economic Sessions
