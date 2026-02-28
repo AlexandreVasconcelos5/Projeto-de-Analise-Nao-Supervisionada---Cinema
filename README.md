@@ -30,7 +30,7 @@ ________________________________________
 ## ⚙️ Technical Pipeline:
 1.  Data Profiling & Pre-processing:
     - Exploratory data analysis, missing values, outliers, distributions, and feature correlations.
-    - Treatment of missing values (minimal removal) and of outliers (truncation to min/max thresholds).
+    - Management of missing values (minimal removal) and of outliers (truncation to min/max thresholds).
     - Removal of redundant features (correlation > 0.90) and of low-variance features (< 0.10).
     - Discretization of the target variable into 3 classes: Low, Medium, and High.
 
