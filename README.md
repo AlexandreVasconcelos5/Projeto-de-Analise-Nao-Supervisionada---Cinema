@@ -26,6 +26,34 @@ ________________________________________
   5. Sessões a Preço Normal e Ocupação Moderada
 - Modelo Local Outlier Factor (LOF): melhor configuração com 25 vizinhos e distância do cosseno, pontuação média dos valores atípicos = 1.243. O modelo detetou cerca de 9.35% de valores atípicos, explicados por fenómenos como promoções, salas VIP, sazonalidade e erros de registo.
 - Conclusão: os modelos K-Means e Aglomerativo Hierárquico apresentaram clusters bem definidos (índice de silhueta superior a 0.7), permitindo identificar perfis distintos de sessões de cinema, enquanto o modelo LOF detetou cerca de 9% de valores atípicos explicados por fenómenos reais.
+
+
+## 📊 Core Results:
+- K-Means Optimization: Best configuration with 14 clusters (Silhouette = 0.773).
+- Hierarchical Clustering: Best configuration with 12 clusters, Ward linkage and Euclidean distance (Silhouette = 0.762).
+- Feature Importance: Ticket_Price and Occupancy_Percentage were the most relevant variables for cluster differentiation.
+
+
+
+
+
+
+
+
+- Defined Session Profiles:
+    1.  High-Demand Premium Sessions
+    2.  Low-Demand Economic Sessions
+    3.  Irregular Demand Economic Sessions
+    4.  Moderately High-Price / Normal Demand Sessions
+    5.  Standard Price / Moderate Occupancy Sessions
+
+
+
+   
+- Anomaly Analysis (LOF):** Configured with 25 neighbors and Cosine distance (Mean Outlier Score = 1.243). Detected 9.35% anomalies tied to VIP hall pricing and specific seasonal campaigns.
+
+
+
 ________________________________________
 
 ## Estrutura do Projeto
