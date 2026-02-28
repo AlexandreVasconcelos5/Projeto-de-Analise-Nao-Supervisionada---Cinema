@@ -61,7 +61,7 @@ ________________________________________
 - `Analise_Nao_Supervisionada_Cinema.pdf`: Detailed technical PDF report.
 ________________________________________
 
-## Quick Start:
+## 📦 Quick Start:
 1. Clone the repository.
 2. Install dependencies: `pip install -r requirements.txt`.
 3. Open the `.ipynb` file in Jupyter Notebook.
